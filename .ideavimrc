@@ -1,6 +1,6 @@
 set number relativenumber
 set scrolloff=12
-set ignorecase
+set ignorecase smartcase
 
 nnoremap <expr> j v:count ? 'j' : 'gj'
 nnoremap <expr> k v:count ? 'k' : 'gk'
