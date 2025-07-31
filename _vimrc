@@ -1,5 +1,6 @@
 set number relativenumber
 set ignorecase smartcase
+set clipboard=unnamedplus
 set scrolloff=8 
 
 nnoremap <expr> j v:count ? 'j' : 'gj'
